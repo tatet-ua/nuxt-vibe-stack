@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "shadcn-vue": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jpisnice/shadcn-ui-mcp-server",
+        "--framework", "vue"
+      ],
+      "description": "Даёт ИИ доступ к исходникам shadcn-vue компонентов, примерам, блокам"
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "description": "Актуальная документация Nuxt, Vue, TanStack — ИИ не галлюцинирует устаревшие API"
+    }
+  }
+}
