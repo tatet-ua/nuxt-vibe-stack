@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { toast } from 'vue-sonner'
-import { ref } from 'vue'
 
+definePageMeta({ layout: 'admin' })
 useHead({ title: 'Примеры компонентов' })
 
 const dialogOpen = ref(false)

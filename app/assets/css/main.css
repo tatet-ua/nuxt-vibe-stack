@@ -114,6 +114,14 @@
 
   body {
     @apply bg-background text-foreground;
+    font-size: 14px;
+    line-height: 1.5;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Адмінка: збільшені рядки таблиць для комфортної роботи */
+  [data-slot="table-cell"],
+  [data-slot="table-head"] {
+    @apply py-3;
   }
 }
